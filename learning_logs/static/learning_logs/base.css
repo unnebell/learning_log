@@ -1,0 +1,7 @@
+div, a {
+    display: flex;
+    justify-content: center;
+
+    color: gray;
+    padding: 15px;
+}
