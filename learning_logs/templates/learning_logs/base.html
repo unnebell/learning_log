@@ -1,9 +1,12 @@
 {% load static %} <!--Importante carregar a pasta static para o uso do css-->
+
 {% block content %}{% endblock content %}
 
 <link rel="stylesheet" href="{% static 'learning_logs/base.css' %}"> <!--Maneira correta de importa o link css-->
 
-<div>
+<footer>
     <a href="{% url 'index' %}">Voltar para página inicial</a>
     <a href="{% url 'teste' %}">Ir para a página teste</a>
-</div>
+    <a href="{% url 'topics' %}">Ir para a página de tópicos</a>
+</footer>
+
